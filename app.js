@@ -40,7 +40,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "0259d6cdb428b44fafd7a395c68e9511-us7"
+        auth: "paul1:2445d2bd8f82e9829610db8143d531b3-us7"
     }
 
     const request = https.request(url, options, function(response){
@@ -65,7 +65,7 @@ app.post("/failure", function(req, res){
 })
 
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(3000, function(){
     console.log('server is running...')
 })
 
