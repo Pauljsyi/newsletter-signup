@@ -40,7 +40,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "paul1:6a952fb11f341bd629cfeb55dfacaa20-us7"
+        auth: "0259d6cdb428b44fafd7a395c68e9511-us7"
     }
 
     const request = https.request(url, options, function(response){
@@ -69,5 +69,4 @@ app.listen(3000, function(){
     console.log('server is running on port 3000')
 })
 
-//audienceID or list_ID = db68acce84
-// var apiKey = 6a952fb11f341bd629cfeb55dfacaa20-us7
+
